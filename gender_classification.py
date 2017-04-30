@@ -5,7 +5,7 @@ Created on Sun Apr 30 13:53:47 2017
 
 @author: dhingratul
 
-Gender Classification based on ||Source|| as part of a tutorial
+Gender Classification based on llSourcell as part of a tutorial
 Parameter :
     Input : X : [height, weight, shoe_size] pairs for each data point
             Y : Labels corresponding to each data point
