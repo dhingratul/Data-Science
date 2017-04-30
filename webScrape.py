@@ -11,6 +11,6 @@ from bs4 import BeautifulSoup
 from urllib.request import urlopen
 
 url = urlopen("http://bit.ly/1D7wKcH").read()
-soup = BeautifulSoup(url)
-text = soup.p.contents
+soup = BeautifulSoup(url, "lxml")
+text = soup.body.contents
 print(text)
