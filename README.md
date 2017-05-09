@@ -1,4 +1,3 @@
 # Data-Science
-Intro to Data Science
-Follwing the presentation from soodoku and other resources
+A part of Udacity course, Intro to Data Science and sooduko
 
