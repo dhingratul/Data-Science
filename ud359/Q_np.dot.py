@@ -7,7 +7,7 @@ Created on Fri Jun 23 11:52:06 2017
 """
 
 import numpy as np
-from pandas import DataFrame
+from pandas import DataFrame, Series
 
 
 def numpy_dot():
@@ -44,6 +44,7 @@ def numpy_dot():
     medals = np.column_stack((gold, silver, bronze))
     points_total = np.dot(medals, score)
     olympic_points_df = DataFrame(
-            {'country_name': countries, 'points': points_total})
+            {'country_name': Series(countries),
+             'points': Series(points_total)})
 
     return olympic_points_df
